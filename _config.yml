@@ -87,7 +87,7 @@ contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, se
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: FlipperFrenchCommunity/FlipperFrenchCommunity.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -101,7 +101,7 @@ projects:
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
-    forks: true
+    forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
     # - repo1-to-be-excluded
