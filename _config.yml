@@ -16,7 +16,7 @@ username: FLIPPER FRENCH COMMUNITY
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Nous vous souhaitons la bienvenue!
 # email: Your E-Mail address for the email button.
-email: flipperfrench@protonmail.com
+# email: 
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
@@ -60,7 +60,7 @@ cv_download_link: https://example.com/
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
-show_projects_card: false
+show_projects_card: true
 # show_projects:
 # > setting this to true, will display your listed projects in _data/projects.yml
 # > setting this to false, will omit your listed projects
@@ -87,12 +87,12 @@ contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, se
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: FlipperFrenchCommunity/FlipperFrenchCommunity.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: pushed
+  sort_by: stars
   exclude:
     # archived:
     # > setting this to true, will exclude archived repositories
@@ -101,11 +101,11 @@ projects:
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
-    forks: true
+    forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
-    # - repo1-to-be-excluded
-    # - repo2-to-be-excluded
+     - .github
+     - FlipperFrenchCommunity.github.io
 
 # GOOGLE-ANALYTICS
 # Set the id, if you want to track your website with Google Analytics
