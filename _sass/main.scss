@@ -62,7 +62,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  text-shadow: 0.25rem 0.25rem 0.25rem #000;
 }
 
 .highlight-link {
@@ -156,7 +156,7 @@ a {
     height: 6rem;
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
     width: 6rem;
   }
@@ -164,6 +164,7 @@ a {
   .load hr {
     animation: spin 2s ease infinite;
     border: 0;
+    border-radius:25%;
     height: 40%;
     margin: 0;
     position: absolute;
@@ -172,36 +173,28 @@ a {
 
   .load :first-child {
     animation-delay: -1.5s;
-    background: $text-color;
+    background: #0000bb;
   }
 
   .load :nth-child(2) {
-    animation-delay: -1s;
-    background: $primary-color;
-  }
-
-  .load :nth-child(3) {
     animation-delay: -0.5s;
-    background: $text-color;
+    background: white;
   }
 
   .load :last-child {
-    background: $primary-color;
+    background: red;
   }
 
   @keyframes spin {
     0%,
     100% {
-      transform: translate(0);
-    }
-    25% {
-      transform: translate(160%);
+      transform: translate(100%);
     }
     50% {
-      transform: translate(160%, 160%);
+      transform: translate(260%, 260%);
     }
     75% {
-      transform: translate(0, 160%);
+      transform: translate(0%, 260%);
     }
   }
 }
